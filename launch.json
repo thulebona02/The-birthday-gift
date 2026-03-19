@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Samkelisiwe Site (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5500/index.html",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Samkelisiwe Site (Edge)",
+      "type": "msedge",
+      "request": "launch",
+      "url": "http://localhost:5500/index.html",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Open Current File (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${file}",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
